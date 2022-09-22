@@ -2,7 +2,7 @@
   <footer class="footer pt-120">
     <div class="container">
       <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
           <div class="footer-widget">
             <div class="logo">
               <a href="https://buttercms.com">
@@ -33,7 +33,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 offset-xl-1">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 offset-xl-1">
           <div class="footer-widget">
             <h3>About Us</h3>
             <ul class="links">
@@ -54,11 +54,14 @@
 
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="footer-widget">
-            <h3>Subscribe Newsletter</h3>
-            <form action="#">
-              <input type="email" placeholder="Email" />
-              <button class="main-btn btn-hover">Subscribe</button>
-            </form>
+            <h3>Supported By</h3>
+            <a href="https://buttercms.com">
+              <img
+                src="../assets/images/butter-y.png"
+                alt="buttercms"
+                width="200"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -67,7 +70,7 @@
 </template>
 
 <script setup>
-defineProps(["menuItems", "activeLink"]);
+defineProps(['menuItems', 'activeLink']);
 </script>
 
 <style scoped></style>
